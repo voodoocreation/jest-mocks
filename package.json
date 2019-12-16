@@ -1,16 +1,21 @@
 {
   "name": "jest-mocks",
   "author": "Raice Hannay <voodoocreation@gmail.com>",
-  "description": "A set of useful mocks for the Jest unit testing framework.",
+  "description": "A set of useful mocks and helpers for the Jest unit testing framework.",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
-    "typescript",
     "jest",
+    "mock",
     "mocks",
     "mock-functions",
     "mock-promise",
-    "promises"
+    "promises",
+    "test",
+    "testing",
+    "typescript",
+    "unit-test",
+    "unit-testing"
   ],
   "main": "dist/index.js",
   "files": [
