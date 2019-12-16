@@ -26,8 +26,8 @@ Returns a `Promise` that will instantly be rejected with the provided `error`.
 
 
 ### `mockWithResolvedPromise(value)`
-Returns a Jest Mock that will instantly resolve with the provided `value` when called.
+Returns an `async` Jest Mock that will instantly resolve with the provided `value` when called.
 
 
 ### `mockWithRejectedPromise(error)`
-Returns a Jest Mock that will instantly be rejected with the provided `error` when called.
+Returns an `async` Jest Mock that will instantly be rejected with the provided `error` when called.
