@@ -7,6 +7,10 @@ A set of useful mocks and helpers for the Jest unit testing framework.
 Available helpers
 -----------------
 
+All provided helpers have full TypeScript support with inferred types based on the arguments
+they're called with.
+
+
 ### `filterMockCalls(mock, ...args)`
 Returns an array of calls from the provided Jest Mock, where `args` matches the args the mock was
 called with.
