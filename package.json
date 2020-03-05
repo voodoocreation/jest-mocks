@@ -3,7 +3,7 @@
   "author": "Raice Hannay <voodoocreation@gmail.com>",
   "description": "A set of useful mocks and helpers for the Jest unit testing framework.",
   "license": "ISC",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "jest",
     "mock",
@@ -41,7 +41,7 @@
   "homepage": "https://github.com/voodoocreation/jest-mocks#readme",
   "types": "dist/index.d.ts",
   "peerDependencies": {
-    "jest": "^24.9.0"
+    "jest": ">= 24.9.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
