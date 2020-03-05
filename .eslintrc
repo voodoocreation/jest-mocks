@@ -1,0 +1,6 @@
+{
+  "extends": ["voodoocreation/base"],
+  "parserOptions": {
+    "project": "tsconfig.lint.json"
+  }
+}

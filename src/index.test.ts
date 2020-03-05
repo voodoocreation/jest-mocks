@@ -58,15 +58,15 @@ describe("Jest mocks", () => {
 
     it("returns a promise that instantly rejects with the provided error", async () => {
       let rejectedError;
-      const error = new Error("Rejected");
+      const mockError = new Error("Rejected");
 
       try {
-        await rejectedPromise(error);
+        await rejectedPromise(mockError);
       } catch (error) {
         rejectedError = error;
       }
 
-      expect(rejectedError).toEqual(error);
+      expect(rejectedError).toEqual(mockError);
     });
   });
 
