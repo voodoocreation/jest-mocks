@@ -9,7 +9,7 @@ export const findCall = (mock: jest.Mock, ...args: any[]) =>
   );
 
 export const resolvedPromise = <T>(value: T) =>
-  new Promise<T>(resolve => resolve(value));
+  new Promise<T>((resolve) => resolve(value));
 
 export const rejectedPromise = (error: string | Error) =>
   new Promise<any>((_, reject) =>
