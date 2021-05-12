@@ -4,7 +4,7 @@ import {
   mockWithRejectedPromise,
   mockWithResolvedPromise,
   rejectedPromise,
-  resolvedPromise
+  resolvedPromise,
 } from "./index";
 
 describe("Jest mocks", () => {
@@ -18,7 +18,7 @@ describe("Jest mocks", () => {
 
       expect(filterCalls(mockFunction, "Other call")).toEqual([
         ["Other call"],
-        ["Other call"]
+        ["Other call"],
       ]);
     });
   });
